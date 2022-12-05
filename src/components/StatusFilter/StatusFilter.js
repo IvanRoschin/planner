@@ -3,7 +3,7 @@ import css from './StatusFilter.module.css';
 // Импортируем хук
 import { useSelector, useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { setStatusFilter } from '../../redux/actions';
+import { setStatusFilter } from '../../redux/filtersSlice';
 // Импортируем объект значений фильтра
 import { statusFilters } from '../../redux/constants';
 

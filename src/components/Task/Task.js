@@ -4,7 +4,7 @@ import css from './Task.module.css';
 // Импортируем хук
 import { useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { deleteTask, toggleCompleted } from '../../redux/actions';
+import { deleteTask, toggleCompleted } from 'redux/tasksSlice';
 export const Task = ({ task }) => {
   // Получаем ссылку на функцию отправки экшенов
   const dispatch = useDispatch();
